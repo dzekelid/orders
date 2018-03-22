@@ -33,7 +33,7 @@ apis:
   tags: Orders
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/stripe/orders-id-pay-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/stripe/orders-id-returns-post.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
