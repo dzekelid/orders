@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteConfigurationRecorder&k=1:
+  /?Action=DeleteConfigurationRecorder:
     get:
       summary: ' Delete Configuration Recorder '
       description: Deletes the configuration recorder
