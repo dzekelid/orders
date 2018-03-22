@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=PutConfigurationRecorder&k=1:
+  /?Action=PutConfigurationRecorder:
     get:
       summary: ' Put Configuration Recorder '
       description: Creates a new configuration recorder to record the selected resource
