@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=StopConfigurationRecorder&k=1:
+  /?Action=StopConfigurationRecorder:
     get:
       summary: ' Stop Configuration Recorder '
       description: Stops recording configurations of the AWS resources you have selected
