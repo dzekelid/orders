@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=StartConfigurationRecorder&k=1:
+  /?Action=StartConfigurationRecorder:
     get:
       summary: ' Start Configuration Recorder '
       description: Starts recording configurations of the AWS resources you have selected
