@@ -19,8 +19,8 @@ tags:
 - Authentication
 - Applications
 - Amazon Web Services
-created: "2018-03-21"
-modified: "2018-03-21"
+created: "2018-03-23"
+modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/aws-config/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -34,7 +34,7 @@ apis:
   tags: Orders
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/aws-config/action-stopconfigurationrecorder-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/aws-config/action-deleteconfigurationrecorder-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/configservice/index.html
