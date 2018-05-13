@@ -1,9 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Stripe
-  description: The Stripe REST API. Please see https://stripe.com/docs/api for more
-    details.
+  title: Stripe Add Orders  Returns
+  description: Return all or part of an order. The order must have a status of paid
+    or fulfilled before it can be returned. Once all items have been returned, the
+    order will become canceled or returned depending on which status the order started
+    in.
   termsOfService: https://stripe.com/us/terms/
   contact:
     name: Stripe Dev Platform Team
