@@ -34,17 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/stripe/orders-id-returns-post.md
-- name: Stripe Add Orders
-  description: Updates the specific order by setting the values of the parameters
-    passed. Any parameters not provided will be left unchanged. This request accepts
-    only the metadata, and status as arguments.
+- name: Stripe Add Orders  Pay
+  description: Post Orders, , Pay
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1/
   tags: Orders
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/stripe/orders-id-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/stripe/orders-id-pay-post.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
