@@ -21,18 +21,17 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/square/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Square Connect API Post V2 Locations Location Orders Batch Retrieve
-  description: |-
-    Retrieves a set of [Order](#type-order)s by their IDs.
-
-    If a given Order ID does not exist, the ID is ignored instead of generating an error.
+- name: Square Connect API Get Location Orders
+  description: Provides summary information for a merchant's online store orders.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/square-logo.png
   humanURL: https://squareup.com
   baseURL: https://connect.squareup.com/v1/
   tags: Orders
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/square/v2-locations-location-id-orders-batch-retrieve-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/square/location-id-orders-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/square/location-id-orders-get-postman.md
 x-common:
 - type: x-base
   url: https://connect.squareup.com
