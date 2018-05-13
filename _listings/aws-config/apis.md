@@ -35,16 +35,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/aws-config/action-stopconfigurationrecorder-get.md
-- name: AWS Config API Put Configuration Recorder
-  description: Creates a new configuration recorder to record the selected resource
-    configurations.
+- name: AWS Config API Start Configuration Recorder
+  description: Starts recording configurations of the AWS resources you have selected
+    to record in your AWS account.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSConfig.png
   humanURL: https://aws.amazon.com/config/
   baseURL: http:://{host}//
   tags: Orders
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/aws-config/action-putconfigurationrecorder-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/aws-config/action-startconfigurationrecorder-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/configservice/index.html
