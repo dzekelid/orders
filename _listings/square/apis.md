@@ -21,26 +21,18 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/square/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Square Connect API Post V2 Locations Location Orders
+- name: Square Connect API Post V2 Locations Location Orders Batch Retrieve
   description: |-
-    Creates an [Order](#type-order) that can then be referenced as `order_id` in a
-    request to the [Charge](#endpoint-charge) endpoint. Orders specify products for
-    purchase, along with discounts, taxes, and other settings to apply to the purchase.
+    Retrieves a set of [Order](#type-order)s by their IDs.
 
-    To associate a created order with a request to the Charge endpoint, provide the
-    order's `id` in the `order_id` field of your request.
-
-    You cannot modify an order after you create it. If you need to modify an order,
-    instead create a new order with modified details.
-
-    To learn more about the Orders API, see the [Orders API Overview](https://docs.connect.squareup.com/articles/orders-api-overview).
+    If a given Order ID does not exist, the ID is ignored instead of generating an error.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/square-logo.png
   humanURL: https://squareup.com
   baseURL: https://connect.squareup.com/v1/
   tags: Orders
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/square/v2-locations-location-id-orders-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/square/v2-locations-location-id-orders-batch-retrieve-post.md
 x-common:
 - type: x-base
   url: https://connect.squareup.com
