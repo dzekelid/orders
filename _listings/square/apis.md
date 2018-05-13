@@ -21,18 +21,16 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/square/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Square Connect API Get Location Orders Order
-  description: Provides comprehensive information for a single online store order,
-    including the order's history.
+- name: Square Connect API Put Location Orders Order
+  description: 'Updates the details of an online store order. Every update you perform
+    on an order corresponds to one of three actions:'
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/square-logo.png
   humanURL: https://squareup.com
   baseURL: https://connect.squareup.com/v1/
   tags: Orders
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/square/location-id-orders-order-id-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/square/location-id-orders-order-id-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/square/location-id-orders-order-id-put.md
 x-common:
 - type: x-base
   url: https://connect.squareup.com
