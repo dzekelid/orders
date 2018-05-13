@@ -1,9 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Stripe
-  description: The Stripe REST API. Please see https://stripe.com/docs/api for more
-    details.
+  title: Stripe Get Orders
+  description: Retrieves the details of an existing order. Supply the unique order
+    ID from either an order creation request or the order list, and Stripe will return
+    the corresponding order information.
   termsOfService: https://stripe.com/us/terms/
   contact:
     name: Stripe Dev Platform Team
