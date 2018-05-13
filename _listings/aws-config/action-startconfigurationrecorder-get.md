@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Config API
+  title: AWS Config API Start Configuration Recorder
   version: 1.0.0
+  description: Starts recording configurations of the AWS resources you have selected
+    to record in your AWS account.
 schemes:
 - http
 produces:
