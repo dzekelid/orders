@@ -1,9 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Content API for Shopping
-  description: Manages product items, inventory, and Merchant Center accounts for
-    Google Shopping.
+  title: Google Content API for Shopping API Orders
+  description: Retrieves or modifies multiple orders in a single request. This method
+    can only be called for non-multi-client accounts.
   contact:
     name: Google
     url: https://google.com
