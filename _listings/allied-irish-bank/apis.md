@@ -28,6 +28,14 @@ x-common:
   url: https://twitter.com/AIBGB
 - type: x-website
   url: https://aibgb.co.uk/
+- type: x-developer
+  url: http://openbankingapis.io/Allied-Irish-Bank
+- type: x-documentation
+  url: https://openbanking.atlassian.net/wiki/spaces/DZ/pages/54919225/Open+Data+API+Dashboard#
+- type: x-twitter
+  url: https://twitter.com/AIBGB
+- type: x-website
+  url: https://aibgb.co.uk/
 include: []
 maintainers:
 - FN: Kin Lane
