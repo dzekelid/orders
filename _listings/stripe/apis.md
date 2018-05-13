@@ -34,15 +34,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/stripe/orders-id-returns-post.md
-- name: Stripe Add Orders  Pay
-  description: Post Orders, , Pay
+- name: Stripe Add Orders  Returns
+  description: Return all or part of an order. The order must have a status of paid
+    or fulfilled before it can be returned. Once all items have been returned, the
+    order will become canceled or returned depending on which status the order started
+    in.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1/
   tags: Orders
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/stripe/orders-id-pay-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/stripe/orders-id-returns-post.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
