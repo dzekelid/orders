@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Config API
+  title: AWS Config API Put Configuration Recorder
   version: 1.0.0
+  description: Creates a new configuration recorder to record the selected resource
+    configurations.
 schemes:
 - http
 produces:
