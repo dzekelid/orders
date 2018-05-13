@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Config API
+  title: AWS Config API Delete Configuration Recorder
   version: 1.0.0
+  description: Deletes the configuration recorder.
 schemes:
 - http
 produces:
