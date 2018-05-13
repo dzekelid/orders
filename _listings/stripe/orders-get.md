@@ -1,9 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Stripe
-  description: The Stripe REST API. Please see https://stripe.com/docs/api for more
-    details.
+  title: Stripe Get Orders
+  description: Returns a list of your orders. The orders are returned sorted by creation
+    date, with the most recently created orders appearing first.
   termsOfService: https://stripe.com/us/terms/
   contact:
     name: Stripe Dev Platform Team
@@ -2137,16 +2137,16 @@ definitions:
         type: post
 x-collection-name: Stripe
 x-streamrank:
-  polling_total_time_average: 0
-  polling_size_download_average: 0
-  streaming_total_time_average: 0
-  streaming_size_download_average: 0
-  change_yes: 0
-  change_no: 0
-  time_percentage: 0
-  size_percentage: 0
-  change_percentage: 0
-  last_run: ""
-  days_run: 0
-  minute_run: 0
+  polling_total_time_average: ~
+  polling_size_download_average: ~
+  streaming_total_time_average: ~
+  streaming_size_download_average: ~
+  change_yes: ~
+  change_no: ~
+  time_percentage: ~
+  size_percentage: ~
+  change_percentage: "200"
+  last_run: ~
+  days_run: ~
+  minute_run: ~
 ---
