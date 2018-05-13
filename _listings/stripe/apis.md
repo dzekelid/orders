@@ -34,15 +34,19 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/stripe/orders-id-returns-post.md
-- name: Stripe Add Orders
-  description: Post Orders
+- name: Stripe Get Orders
+  description: Retrieves the details of an existing order. Supply the unique order
+    ID from either an order creation request or the order list, and Stripe will return
+    the corresponding order information.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1/
   tags: Orders
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/stripe/orders-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/stripe/orders-id-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/stripe/orders-id-get-postman.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
