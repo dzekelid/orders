@@ -1,27 +1,67 @@
 ---
 name: CallFire
-description: CallFire is a cloud-based telephony company that provides voice and text
-  connectivity services. It offers the necessary tools for businesses to communicate
-  and market effectively. The company works to provide a diverse line of innovative
-  products that enable its users to get their messages delivered.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/CallFire_Logo.png
+x-slug: callfire
+description: Grow your business with virtual phone numbers, IVR, voice broadcasting,
+  mass text messaging services and power dialing. Try CallFire for FREE!
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Voice
-- Telco
-- Stack Network
-- SMS
-- Partners
-- Messaging
-- Getting Started
-created: "2018-05-13"
-modified: "2018-05-13"
+x-alexaRank: "129466"
+tags: Orders
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/callfire/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Callfire Purchase keywords
+  x-api-slug: callfire
+  description: Purchase keywords. Send a list of available keywords into this API
+    to purchase them using CallFire credits. Make sure the account has enough credits
+    before trying to purchase the keywords
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
+  humanURL: http://www.callfire.com
+  baseURL: https://www.callfire.com//v2//orders/keywords
+  tags: Orders,Keywords
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/callfire/orderskeywords-post-openapi.md
+- name: Callfire Purchase numbers
+  x-api-slug: callfire
+  description: Purchase numbers. There are many ways to purchase a number. Set either
+    'tollFreeCount' or 'localCount' along with some querying fields to purchase numbers
+    by bulk query. Set the list of numbers to purchase by list. Available numbers
+    will be purchased using CallFire credits owned by the user. Make sure the account
+    has enough credits before trying to purchase
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
+  humanURL: http://www.callfire.com
+  baseURL: https://www.callfire.com//v2//orders/numbers
+  tags: Orders,Numbers
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/callfire/ordersnumbers-post-openapi.md
+- name: Callfire Find a specific order
+  x-api-slug: callfire
+  description: Returns a single NumberOrder instance for a given order id. Order contains
+    information about purchased keywords, local, toll-free numbers
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
+  humanURL: http://www.callfire.com
+  baseURL: https://www.callfire.com//v2//orders/{id}
+  tags: Orders
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/callfire/ordersid-get-openapi.md
+- name: Callfire
+  x-api-slug: callfire
+  description: Grow your business with virtual phone numbers, IVR, voice broadcasting,
+    mass text messaging services and power dialing. Try CallFire for FREE!
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11768-callfire.jpg
+  humanURL: http://www.callfire.com
+  baseURL: https://www.callfire.com//v2
+  tags: Orders
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/callfire/openapi.md
 x-common:
-- type: x-net-sdk
+- type: x--net-sdk
   url: https://github.com/CallFire/CallFire-CSharp-SDK
 - type: x-account-billing
   url: https://answers.callfire.com/hc/en-us/sections/200166268-Billing
@@ -43,12 +83,16 @@ x-common:
   url: https://www.callfire.com/contact
 - type: x-crunchbase
   url: https://www.crunchbase.com/organization/callfire
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/callfire
 - type: x-developer
   url: https://www.callfire.com/api-documentation
 - type: x-documentation
   url: https://www.callfire.com/api-documentation/rest/version/1.1
 - type: x-drupal-plugin
   url: https://github.com/CallFire/CallFire-Drupal-Integration
+- type: x-email
+  url: answers@callfire.com
 - type: x-email
   url: support@callfire.com
 - type: x-facebook
