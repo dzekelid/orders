@@ -4,7 +4,7 @@ description: This is a repository of orders APIs, self-contained as a Github rep
   with HTML and YAML representations of the APIs and their surrounding operations.
 image: http://template.streamdata.gallery/assets/orders.png
 created: "2018-02-24"
-modified: "2018-06-20"
+modified: "2018-06-25"
 url: http://orders.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
@@ -22,10 +22,10 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/aws-config/apis.yaml
 - name: Google Content API for Shopping
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/google-content-api-for-shopping/apis.yaml
-- name: Allied Irish Bank
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/allied-irish-bank/apis.yaml
 - name: Eventbrite
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/eventbrite/apis.yaml
+- name: Allied Irish Bank
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/allied-irish-bank/apis.yaml
 - name: CallFire
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/callfire/apis.yaml
 - name: Jumpseller
