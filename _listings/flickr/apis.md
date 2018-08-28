@@ -11,37 +11,58 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Orders
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/flickr/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Flickr Photosets Order Sets
-  x-api-slug: flickr
+- name: Flickr - Photosets Order Sets
+  x-api-slug: restmethodflickr-photosets-ordersets-post
   description: Set the order of photosets for the calling user.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg
   humanURL: http://www.flickr.com/
-  baseURL: https://api.flickr.com//services///rest/?method=flickr.photosets.orderSets
-  tags: Photosets,OrderSets
+  baseURL: https://api.flickr.com//services/
+  tags: Images, My API Stack, Imports, Stack Network, Stack, Media, Photos, Getting
+    Started Example, API Provider, Photos, Photos, Profiles, General Data, Relative
+    Data, Pedestal, Historical Data API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/flickr/restmethodflickr-photosets-ordersets-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/flickr/restmethodflickr-photosets-ordersets-post-openapi.md
-- name: Flickr
-  x-api-slug: flickr
-  description: The Flickr API consists of a set of callable methods, and some API
-    endpoints.  To perform an action using the Flickr API, you need to select a calling
-    convention, send a request to its endpoint specifying a method and some arguments,
-    and will receive a formatted response.
+- name: Flickr - Photosets Order Sets
+  x-api-slug: restmethodflickr-photosets-ordersets-post
+  description: Set the order of photosets for the calling user.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg
   humanURL: http://www.flickr.com/
   baseURL: https://api.flickr.com//services/
-  tags: Orders
+  tags: Images, My API Stack, Imports, Stack Network, Stack, Media, Photos, Getting
+    Started Example, API Provider, Photos, Photos, Profiles, General Data, Relative
+    Data, Pedestal, Historical Data API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/flickr/restmethodflickr-photosets-ordersets-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/flickr/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/flickr/restmethodflickr-photosets-ordersets-post-openapi.md
+- name: Flickr - Photosets Order Sets
+  x-api-slug: restmethodflickr-photosets-ordersets-post
+  description: Set the order of photosets for the calling user.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg
+  humanURL: http://www.flickr.com/
+  baseURL: https://api.flickr.com//services/
+  tags: Images, My API Stack, Imports, Stack Network, Stack, Media, Photos, Getting
+    Started Example, API Provider, Photos, Photos, Profiles, General Data, Relative
+    Data, Pedestal, Historical Data API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/flickr/restmethodflickr-photosets-ordersets-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/orders/master/_listings/flickr/restmethodflickr-photosets-ordersets-post-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://flat.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://flickr.stack.network
 - type: x-authentication
   url: https://www.flickr.com/services/api/auth.oauth.html
 - type: x-base

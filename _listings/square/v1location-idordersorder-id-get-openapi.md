@@ -83,6 +83,47 @@ paths:
       - Including
       - Orders
       - History
+    put:
+      summary: 'Updates the details of an online store order. Every update you perform
+        on an order corresponds to one of three actions:'
+      description: 'Updates the details of an online store order. Every update you
+        perform on an order corresponds to one of three actions:'
+      operationId: UpdateOrder
+      x-api-path-slug: v1location-idordersorder-id-put
+      parameters:
+      - in: body
+        name: body
+        description: An object containing the fields to POST for the request
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: location_id
+        description: The ID of the orders associated location
+      - in: path
+        name: order_id
+        description: The orders Square-issued ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - S
+      - Details
+      - Of
+      - Online
+      - Store
+      - Order
+      - ""
+      - Every
+      - Update
+      - You
+      - Perform
+      - "On"
+      - Order
+      - Corresponds
+      - To
+      - Of
+      - Three
+      - 'Actions:'
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

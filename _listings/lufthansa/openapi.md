@@ -1,9 +1,8 @@
----
 swagger: "2.0"
 x-collection-name: Lufthansa
 x-complete: 1
 info:
-  title: LH Partner
+  title: LH Public
   version: "1.0"
 host: api.lufthansa.com
 basePath: /v1
@@ -37,4 +36,3 @@ paths:
           description: OK
       tags:
       - Orders
----

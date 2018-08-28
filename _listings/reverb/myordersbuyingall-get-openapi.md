@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Reverb
 x-complete: 0
 info:
-  title: reverb Get My Orders Buying All
+  title: Reverb Get My Orders Buying All
   description: Returns all orders, newest first.
   termsOfService: https://reverb.com/page/terms
   contact:

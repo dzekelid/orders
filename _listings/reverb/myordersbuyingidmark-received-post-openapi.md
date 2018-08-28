@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Reverb
 x-complete: 0
 info:
-  title: reverb Post My Orders Buying Mark Received
+  title: Reverb Post My Orders Buying Mark Received
   description: Marks an order as received by the buyer
   termsOfService: https://reverb.com/page/terms
   contact:

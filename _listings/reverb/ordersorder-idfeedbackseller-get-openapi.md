@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Reverb
 x-complete: 0
 info:
-  title: reverb Get Orders Order Feedback Seller
+  title: Reverb Get Orders Order Feedback Seller
   description: Feedback details for an order's seller
   termsOfService: https://reverb.com/page/terms
   contact:
@@ -354,6 +354,43 @@ paths:
       - Id
       - Feedback
       - Seller
+    post:
+      summary: Post Orders Order Feedback Seller
+      description: Add feedback about an order's seller
+      operationId: postOrdersOrderFeedbackSeller
+      x-api-path-slug: ordersorder-idfeedbackseller-post
+      parameters:
+      - in: path
+        name: order_id
+      responses:
+        200:
+          description: OK
+      tags:
+      - Orders
+      - Order
+      - Id
+      - Feedback
+      - Seller
+  /my/orders/buying/buying_history/{seller_id}:
+    get:
+      summary: Get My Orders Buying Buying History Seller
+      description: Get my orders buying buying history seller.
+      operationId: getMyOrdersBuyingBuyingHistorySeller
+      x-api-path-slug: myordersbuyingbuying-historyseller-id-get
+      parameters:
+      - in: path
+        name: seller_id
+      responses:
+        200:
+          description: OK
+      tags:
+      - My
+      - Orders
+      - Buying
+      - Buying
+      - History
+      - Seller
+      - Id
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

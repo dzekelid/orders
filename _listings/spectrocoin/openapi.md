@@ -1,9 +1,8 @@
----
 swagger: "2.0"
 x-collection-name: SpectroCoin
 x-complete: 1
 info:
-  title: Spectro Coin Merchant
+  title: SpectroCoin Merchant
   description: this-is-an-api-designed-for-merchants-who-are-using-spectrocoin-services-and-wishes-to-integrate-them-locally-
   contact:
     name: info@spectrocoin.com
@@ -20,7 +19,7 @@ paths:
   /api/createOrder:
     post:
       summary: Create merchant order
-      description: Create merchant order
+      description: ""
       operationId: createOrder
       x-api-path-slug: apicreateorder-post
       parameters:
@@ -33,5 +32,4 @@ paths:
         200:
           description: OK
       tags:
-      - Orders
----
+      - ""

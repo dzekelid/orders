@@ -3,8 +3,8 @@ swagger: "2.0"
 x-collection-name: SpectroCoin
 x-complete: 0
 info:
-  title: Spectro Coin Merchant Create merchant order
-  description: Create merchant order
+  title: Spectrocoin Create merchant order
+  description: ""
   contact:
     name: info@spectrocoin.com
   version: 1.0.0
@@ -20,7 +20,7 @@ paths:
   /api/createOrder:
     post:
       summary: Create merchant order
-      description: Create merchant order
+      description: ""
       operationId: createOrder
       x-api-path-slug: apicreateorder-post
       parameters:
@@ -33,7 +33,7 @@ paths:
         200:
           description: OK
       tags:
-      - Orders
+      - ""
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

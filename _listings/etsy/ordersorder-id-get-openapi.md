@@ -30,6 +30,49 @@ paths:
       tags:
       - Orders
       - Order
+  /orders/{order_id}/receipts:
+    get:
+      summary: Get Orders Order Receipts
+      description: Retrieves a set of Receipt objects associated to a Order.
+      operationId: getOrdersOrderReceipts
+      x-api-path-slug: ordersorder-idreceipts-get
+      parameters:
+      - in: query
+        name: limit
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: offset
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: path
+        name: order_id
+      responses:
+        200:
+          description: OK
+      tags:
+      - Orders
+      - Order
+      - Receipts
+  /users/{user_id}/orders:
+    get:
+      summary: Get Users User Orders
+      description: Retrieves a set of Order objects associated to a User.
+      operationId: getUsersUserOrders
+      x-api-path-slug: usersuser-idorders-get
+      parameters:
+      - in: query
+        name: limit
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: query
+        name: offset
+        description: Bring Etsys handmade marketplace and community into your apps
+      - in: path
+        name: user_id
+      responses:
+        200:
+          description: OK
+      tags:
+      - Users
+      - Orders
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

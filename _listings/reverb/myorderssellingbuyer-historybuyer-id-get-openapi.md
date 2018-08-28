@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Reverb
 x-complete: 0
 info:
-  title: reverb Get My Orders Selling Buyer History Buyer
+  title: Reverb Get My Orders Selling Buyer History Buyer
   description: Get my orders selling buyer history buyer.
   termsOfService: https://reverb.com/page/terms
   contact:

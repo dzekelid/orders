@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Reverb
 x-complete: 0
 info:
-  title: reverb Get My Orders Selling Awaiting Shipment
+  title: Reverb Get My Orders Selling Awaiting Shipment
   description: Get seller orders awaiting shipment, newest first.
   termsOfService: https://reverb.com/page/terms
   contact:

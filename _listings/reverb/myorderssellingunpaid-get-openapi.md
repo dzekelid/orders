@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Reverb
 x-complete: 0
 info:
-  title: reverb Get My Orders Selling Unpa
+  title: Reverb Get My Orders Selling Unpa
   description: Get unpaid seller orders, newest first.
   termsOfService: https://reverb.com/page/terms
   contact:

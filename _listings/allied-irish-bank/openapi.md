@@ -1,16 +1,16 @@
----
 swagger: "2.0"
 x-collection-name: Allied Irish Bank
 x-complete: 1
 info:
-  title: Account and Transaction API Specification
-  description: swagger-for-account-and-transaction-api-specification
-  termsOfService: https://www.openbanking.org.uk/terms
+  title: Allied Irish Bank
+  description: this-is-an-openapi-definition-for-the-standard-set-of-open-banking-httpopenbankingapis-io-apis-covering-the-allied-irish-bank-apis-
+  termsOfService: https://www.openbanking.org.uk/open-licence/
   contact:
-    name: Service Desk
-    email: ServiceDesk@openbanking.org.uk
+    name: API Evangelist
+    url: https://apievangelist.com
+    email: info@apievangelist.com
   version: 1.0.0
-basePath: /open-banking/v1.1
+basePath: open-banking/v2.1/
 schemes:
 - http
 produces:
@@ -82,4 +82,4 @@ paths:
       - Banking
       - Standing
       - Orders
----
+host: openapi.aibgb.co.uk

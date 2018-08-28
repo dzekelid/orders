@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Reverb
 x-complete: 0
 info:
-  title: reverb Post My Orders Selling Mark Picked Up
+  title: Reverb Post My Orders Selling Mark Picked Up
   description: Post my orders selling mark picked up.
   termsOfService: https://reverb.com/page/terms
   contact:
